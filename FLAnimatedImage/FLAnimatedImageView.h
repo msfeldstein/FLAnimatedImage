@@ -29,4 +29,7 @@
 @property (nonatomic, strong, readonly) UIImage *currentFrame;
 @property (nonatomic, assign, readonly) NSUInteger currentFrameIndex;
 
+- (void)forceStartAnimation;
+- (void)forceStopAnimation;
+
 @end

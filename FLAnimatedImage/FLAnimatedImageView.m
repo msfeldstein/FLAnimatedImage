@@ -81,6 +81,16 @@
     }
 }
 
+- (void)forceStartAnimation {
+    self.shouldAnimate = true;
+    [self startAnimating];
+}
+
+- (void)forceStopAnimation {
+    self.shouldAnimate = false;
+    [self stopAnimating];
+}
+
 
 #pragma mark - Life Cycle
 
